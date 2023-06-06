@@ -1,0 +1,135 @@
+body {
+    font-family: verdana;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+header h2 {}
+
+header {
+    height: 10vh
+}
+
+header h4 {}
+
+
+
+.Background {
+    background-image: url('./workspaces/online-portfolio-Corey-Engelsman-Student/Images/7512.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.buttonDownload {
+    background-color: lightseagreen;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: auto;
+    width: 70%;
+}
+
+.Experience {
+    margin-top: -3;
+}
+
+.buttonDownload:hover {
+    background-color: #397a7a;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex: 1;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 3.4vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subHeader {
+    text-align: center;
+    color: black;
+}
+
+.downloadButtons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.displayText {
+    display: flex;
+    align-items: center;
+}
+
+.displayText>* {
+    flex: 1;
+}
+
+.para {
+    align-items: center;
+    display: flex;
+}
+
+.Me {
+    max-width: 450;
+}
+
+.CTCpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600;
+}
+
+.buttonDownload2 {
+    background-color: lightseagreen;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: auto;
+}
+
+.certPic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: end;
+}
+
+.cssText {
+    margin-top: 47%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
